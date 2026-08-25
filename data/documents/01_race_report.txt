@@ -1,0 +1,21 @@
+SOURCE: Formula 1 Official
+TITLE: 2024 Monaco Grand Prix - Race Report
+DATE: 2024-05-26
+DRIVER: all
+TEAM: all
+RACE: Monaco 2024
+SESSION: Race
+
+Charles Leclerc ended his Monaco curse in style, claiming a dominant victory at his home race in the 2024 Monaco Grand Prix. The Monegasque driver led from pole position and managed his pace masterfully throughout the 78-lap race around the streets of Monte Carlo.
+
+Leclerc started from pole position, his second consecutive Monaco pole, and immediately built a gap over the field. Ferrari's strategy was meticulous — they opted for a single-stop strategy, fitting Leclerc with medium tyres at the start and switching to hard tyres during his pit stop on lap 30.
+
+Lando Norris finished in seventh place after a difficult afternoon for McLaren. Norris struggled with tyre degradation throughout the race and his team was unable to find the optimal strategy to challenge the frontrunners. He started from fourth on the grid and maintained that position through the opening stint before the safety car period reshuffled the order.
+
+The safety car was deployed on lap 27 following an incident in the midfield. Ferrari reacted quickly, bringing Leclerc in for his pit stop under the safety car and ultimately gaining an advantage over his rivals. McLaren's reaction was slower, costing Norris track position.
+
+Weather conditions were warm and dry throughout — air temperature reached 25 degrees Celsius and track temperature peaked at 48 degrees Celsius. This placed significant thermal stress on all compounds, particularly the softer tyres.
+
+Final standings for the two drivers:
+- P1: Charles Leclerc (Ferrari) — 1:52:44.988
+- P7: Lando Norris (McLaren) — +50.8 seconds

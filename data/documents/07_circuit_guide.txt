@@ -1,0 +1,53 @@
+SOURCE: F1 Circuit Guide
+TITLE: Circuit de Monaco - Track Guide and Characteristics
+DATE: 2024-05-24
+DRIVER: all
+TEAM: all
+RACE: Monaco 2024
+SESSION: all
+
+CIRCUIT DE MONACO — TRACK GUIDE
+
+Location: Monte Carlo, Monaco
+Circuit length: 3.337 km
+Lap record: 1:12.909 (Lewis Hamilton, 2021)
+Number of laps (race): 78
+Total race distance: 260.286 km
+Race direction: Clockwise
+DRS zones: 1 (between Nouvelle Chicane and Tabac)
+
+KEY CORNERS AND SECTORS
+
+Sector 1: Sainte Dévote to Massenet
+- Sainte Dévote (Turn 1): A right-hand corner taken at medium speed (~100 km/h). Heavy braking required. Key for traction out of the corner.
+- Beau Rivage: Long uphill straight building speed.
+- Massenet (Turn 5): Fast left-hander leading to Casino Square.
+- Casino Square: Right-hand hairpin. Low speed, requires precise positioning.
+
+Sector 2: Mirabeau to Tunnel Exit
+- Mirabeau (Turn 8): Medium-speed right-hander.
+- Loews/Grand Hotel Hairpin (Turn 9): The slowest corner in Formula 1, taken at approximately 40 km/h. Pure mechanical grip.
+- Portier: Medium-speed right-hander before the tunnel.
+- Tunnel: The longest straight at Monaco. Cars reach 290+ km/h. One of the best DRS opportunities.
+- Nouvelle Chicane: Heavy braking after the tunnel. Critical braking point.
+
+Sector 3: Swimming Pool to Finish
+- Swimming Pool (Turns 15-16): Fast chicane requiring precision and commitment.
+- Rascasse (Turn 17): Low-speed hairpin. Very tight, crucial for lap time in qualifying.
+- Anthony Noghes (Turn 18): Final corner leading onto the start/finish straight.
+
+CIRCUIT CHARACTERISTICS
+- Lowest average speed of any F1 circuit (~157 km/h)
+- Very narrow track — barriers are extremely close throughout
+- Overtaking is nearly impossible once in racing position
+- Track position is the defining strategic variable
+- Tyre degradation is low due to slow speeds but high due to stop-start braking character
+- Mechanical grip more important than aerodynamic downforce
+- Qualifying performance is disproportionately important
+- Safety car probability is high due to incident likelihood in narrow conditions
+
+TYRE COMPOUNDS AT MONACO 2024
+Pirelli selected: C3 (Hard), C4 (Medium), C5 (Soft)
+Soft: Used primarily in qualifying. Provides maximum grip but degrades rapidly in race conditions.
+Medium: Preferred race starting compound. Good balance of performance and durability.
+Hard: Used as the primary second stint compound. Durable for long stints.

@@ -1,0 +1,35 @@
+# Backend
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Neo4j
+neo4j
+
+# Qdrant
+qdrant-client
+
+# F1 + data
+fastf1
+pandas
+numpy
+pyarrow
+
+# OpenAI & Gemini
+openai
+tiktoken
+google-genai
+
+# HTTP
+httpx
+
+# Testing
+pytest
+pytest-asyncio

@@ -1,0 +1,30 @@
+SOURCE: F1 Technical Analysis
+TITLE: Ferrari vs McLaren - Monaco 2024 Technical Breakdown
+DATE: 2024-05-27
+DRIVER: LEC, NOR
+TEAM: Ferrari, McLaren
+RACE: Monaco 2024
+SESSION: Race
+
+Technical Analysis: Ferrari SF-24 vs McLaren MCL38 at Monaco
+
+The 2024 Monaco Grand Prix provided a fascinating technical contrast between the Ferrari SF-24 and the McLaren MCL38.
+
+CAR SETUP PHILOSOPHY
+Ferrari opted for a high-downforce, low-drag setup specifically tuned for Monaco's low-speed corners and technical sections. The SF-24's aerodynamic platform proved particularly well-suited to the slow-speed corners of the Monaco layout, particularly Loews Hairpin, Rascasse, and Anthony Noghes.
+
+McLaren's MCL38 is known for its strong performance in medium- and high-speed corners. Monaco's unique layout — with an average speed below 160 km/h — did not play to the MCL38's primary aerodynamic strengths. The car showed some understeer tendencies on the exit of slow corners, which cost Norris time.
+
+TYRE MANAGEMENT
+Leclerc demonstrated superior tyre management throughout the race. On the medium compound, Ferrari's smooth, consistent pace minimised thermal degradation. The SF-24's mechanical balance allowed Leclerc to avoid excessive rear tyre wear, a key differentiator at Monaco.
+
+Norris experienced higher-than-expected degradation. McLaren's analysts noted post-race that the MCL38's setup generated slightly more front tyre stress under braking into the tight corners. Monaco's stop-start character exacerbated this, as the repeated heavy-braking zones required consistent front tyre performance across 78 laps.
+
+SAFETY CAR STRATEGY
+The safety car on lap 27 was the pivotal moment. Ferrari pitted Leclerc immediately, gaining a free pit stop. McLaren's decision to stay out cost Norris track position. In a circuit where overtaking is virtually impossible, this decision ultimately defined Norris's race result.
+
+SECTOR TIME ANALYSIS
+In qualifying, Ferrari held clear advantages in Sector 2 (tunnel, chicane complex) and Sector 3 (Rascasse, Anthony Noghes). McLaren was competitive in Sector 1 but could not replicate Ferrari's pace in the technical middle and final sectors. This reflects Ferrari's advantage in mechanical grip and downforce at very low speeds.
+
+CONCLUSION
+The Monaco result was not simply a strategy victory — Ferrari had a genuine car advantage at this specific circuit. The combination of superior downforce configuration, better mechanical grip at low speeds, and outstanding tyre management by Leclerc produced a dominant victory. McLaren will look to circuits that suit their car's characteristics better.

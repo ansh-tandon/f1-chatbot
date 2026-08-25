@@ -1,0 +1,59 @@
+# Environment & Secret files (CRITICAL: NEVER COMMIT THESE)
+.env
+*.env
+*.env.*
+backend/.env
+frontend/.env*
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# FastF1 Data & Caches (Huge files + raw data)
+fastf1_cache/
+data/fastf1_cache/
+data/raw/*.parquet
+*.parquet
+*.csv
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+.next/
+
+# Neo4j / Qdrant local storage
+neo4j/
+qdrant_storage/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing & Logs
+.pytest_cache/
+htmlcov/
+.coverage
+*.log
+logs/

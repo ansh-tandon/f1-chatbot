@@ -1,0 +1,41 @@
+SOURCE: F1 Race Analysis
+TITLE: Safety Car Impact Analysis - Monaco 2024
+DATE: 2024-05-27
+DRIVER: LEC, NOR
+TEAM: Ferrari, McLaren
+RACE: Monaco 2024
+SESSION: Race
+
+SAFETY CAR ANALYSIS — MONACO GRAND PRIX 2024
+
+THE INCIDENT
+The safety car was deployed on lap 27 of 78 at the 2024 Monaco Grand Prix following an incident involving midfield drivers. The timing of this safety car was pivotal in shaping the race outcome.
+
+FERRARI'S REACTION — CHARLES LECLERC
+Ferrari called Leclerc in immediately when the safety car was deployed on lap 27.
+- Leclerc entered the pits at the end of lap 27
+- This was his planned stop, aligned with the Medium-to-Hard strategy
+- The free pit stop under safety car conditions allowed Ferrari to gain track position over rivals who stayed out
+- When Leclerc rejoined after the stop, the safety car was still deployed, meaning he lost minimal time
+- Ferrari's fast reaction time: reported at under 8 seconds from safety car deployment to pit call
+- Leclerc rejoined in the lead
+
+MCLAREN'S REACTION — LANDO NORRIS
+McLaren kept Norris out when the safety car was deployed.
+- This decision was made in the hope of extending track position or waiting for a better strategic moment
+- However, when McLaren eventually pitted Norris on lap 33 (under green flag conditions), he lost additional positions
+- Norris rejoined behind several cars and was unable to make progress at Monaco, where overtaking is essentially impossible
+- McLaren acknowledged post-race that the safety car decision was a key factor in their strategic outcome
+
+STRATEGY IMPACT
+The safety car window created a 6-lap free stop opportunity. Teams that pitted immediately gained the most:
+- Pitting lap 27 under SC: No time loss on track, fresh tyres, maintained lap count
+- Pitting lap 33 under green: Normal pit time loss (~22 seconds), no strategic advantage
+
+At Monaco, losing 22 seconds in a pit stop under normal conditions is extremely costly because there is no opportunity to recover the time through on-track pace differential.
+
+POST-RACE ASSESSMENT
+Ferrari: "Our pit wall was monitoring the situation continuously. The call was made instantly — it was the right decision."
+McLaren: "In hindsight, we should have reacted faster. Monaco punishes delayed decisions."
+
+The safety car sequence explains the majority of the gap between Leclerc's first place and Norris's seventh place. In racing terms, this was a strategy execution differentiator, not purely a car pace differentiator.

@@ -1,0 +1,43 @@
+SOURCE: F1 Strategy Analysis
+TITLE: Monaco 2024 Tyre Strategy Deep Dive - LEC vs NOR
+DATE: 2024-05-27
+DRIVER: LEC, NOR
+TEAM: Ferrari, McLaren
+RACE: Monaco 2024
+SESSION: Race
+
+TYRE STRATEGY COMPARISON: Charles Leclerc vs Lando Norris - Monaco 2024
+
+CHARLES LECLERC (Ferrari) - STRATEGY
+Stint 1: Medium compound — Laps 1–30 (30 laps)
+  - Leclerc managed his pace carefully in the opening stint, running at a controlled tempo.
+  - Average lap time in the opening stint was around 1:14.5.
+  - Degradation was minimal due to smooth driving style and Ferrari's superior mechanical balance.
+  - He pitted on lap 30 under the safety car, a perfectly timed stop.
+
+Stint 2: Hard compound — Laps 31–78 (48 laps)
+  - On fresh hard tyres, Leclerc immediately pushed to build his lead.
+  - The hard compound suited the track conditions well as temperatures rose through the afternoon.
+  - Average lap times in the second stint were around 1:14.8.
+  - No degradation issues were reported. He comfortably managed to the end.
+
+Total pit stops: 1
+Strategy verdict: One-stop, perfectly executed.
+
+LANDO NORRIS (McLaren) - STRATEGY
+Stint 1: Medium compound — Laps 1–33 (33 laps)
+  - Norris ran longer in his opening stint, hoping to offset some lost track position.
+  - Degradation became noticeable from lap 20 onward, with lap times dropping by ~0.5 seconds.
+  - Average pace was around 1:15.2–1:15.5 in the later part of the stint.
+  - McLaren kept him out through the safety car period, not pitting immediately.
+
+Stint 2: Hard compound — Laps 34–78 (45 laps)
+  - Norris rejoined in a compromised position after the safety car. 
+  - Initial pace on the hard was reasonable but he was unable to challenge the cars ahead.
+  - Average lap times were around 1:15.5, slightly slower than Leclerc's.
+
+Total pit stops: 1
+Strategy verdict: One-stop but with non-optimal safety car response.
+
+SUMMARY
+The key differentiator was not the number of pit stops — both drivers made one stop — but the timing of those stops. Ferrari's immediate reaction to the safety car gave Leclerc a significant strategic advantage. McLaren's delayed response resulted in Norris pitting under green flag conditions and losing several positions. Combined with higher tyre degradation in the opening stint, this defined the race outcome for both drivers.
