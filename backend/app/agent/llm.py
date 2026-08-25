@@ -44,7 +44,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
                 api_key=groq_key,
             )
             response = client.chat.completions.create(
-                model="groq/compound-mini",
+                model="openai/gpt-oss-20b",
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_message},
