@@ -3,7 +3,7 @@ from app.config import get_settings
 
 settings = get_settings()
 
-GEMINI_MODEL = "gemini-3.6-flash"
+GEMINI_MODEL = "gemini-1.5-flash"
 OPENAI_MODEL = "gpt-4o-mini"
 
 SYSTEM_PROMPT = """You are an expert F1 Data Analyst AI specializing in the 2024 Monaco Grand Prix, with deep knowledge of Charles Leclerc (Ferrari) and Lando Norris (McLaren).
@@ -33,28 +33,8 @@ def ask_llm(question: str, context: str) -> str:
 
 Please answer the question using ONLY the data in the context above. Follow the answer format exactly."""
 
-    groq_key = os.getenv("GROQ_API_KEY")
     gemini_key = settings.gemini_api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-
-    if groq_key:
-        try:
-            from openai import OpenAI
-            client = OpenAI(
-                base_url="https://api.groq.com/openai/v1",
-                api_key=groq_key,
-            )
-            response = client.chat.completions.create(
-                model="openai/gpt-oss-20b",
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_message},
-                ],
-                temperature=0.2,
-                max_tokens=1500,
-            )
-            return response.choices[0].message.content or "No response generated."
-        except Exception as e:
-            return f"Groq LLM Error: {str(e)}. Please verify GROQ_API_KEY."
+    groq_key = os.getenv("GROQ_API_KEY")
 
     if gemini_key:
         try:
@@ -85,7 +65,29 @@ Please answer the question using ONLY the data in the context above. Follow the 
                 )
                 return response.text or "No response generated."
         except Exception as e:
-            return f"Gemini LLM error: {str(e)}. Please check your GEMINI_API_KEY in .env."
+            # If Gemini fails/exceeds quota, fallback to Groq
+            if not groq_key:
+                return f"Gemini LLM error: {str(e)}. Please check your GEMINI_API_KEY in .env."
+
+    if groq_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(
+                base_url="https://api.groq.com/openai/v1",
+                api_key=groq_key,
+            )
+            response = client.chat.completions.create(
+                model="openai/gpt-oss-20b",
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_message},
+                ],
+                temperature=0.2,
+                max_tokens=1500,
+            )
+            return response.choices[0].message.content or "No response generated."
+        except Exception as e:
+            return f"Groq LLM Error: {str(e)}. Please verify GROQ_API_KEY."
 
     elif settings.openai_api_key:
         try:
