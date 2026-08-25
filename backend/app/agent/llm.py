@@ -47,7 +47,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
                     config=types.GenerateContentConfig(
                         system_instruction=SYSTEM_PROMPT,
                         temperature=0.2,
-                        max_output_tokens=4096,
+                        max_output_tokens=1500,
                     ),
                 )
                 return response.text or "No response generated."
@@ -60,7 +60,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
                 )
                 response = model.generate_content(
                     user_message,
-                    generation_config={"temperature": 0.2, "max_output_tokens": 4096},
+                    generation_config={"temperature": 0.2, "max_output_tokens": 1500},
                 )
                 return response.text or "No response generated."
         except Exception as e:
@@ -77,7 +77,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
                     {"role": "user", "content": user_message},
                 ],
                 temperature=0.2,
-                max_tokens=4096,
+                max_tokens=1500,
             )
             return response.choices[0].message.content or "No response generated."
         except Exception as e:

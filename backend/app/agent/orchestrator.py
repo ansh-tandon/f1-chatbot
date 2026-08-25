@@ -218,7 +218,7 @@ def orchestrate(message: str) -> OrchestratorResult:
 
         # Documents always retrieved
         try:
-            result.documents = tool_search_documents(message, top_k=4)
+            result.documents = tool_search_documents(message, top_k=2)
             result.sources_used.append("Qdrant")
         except Exception as e:
             log.warning(f"Document search failed: {e}")
