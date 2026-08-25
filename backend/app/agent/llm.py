@@ -54,8 +54,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
             )
             return response.choices[0].message.content or "No response generated."
         except Exception as e:
-            # Fallback to Gemini if Groq errors out
-            pass
+            return f"Groq LLM Error: {str(e)}. Please verify GROQ_API_KEY."
 
     if gemini_key:
         try:
