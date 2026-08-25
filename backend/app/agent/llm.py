@@ -44,7 +44,7 @@ Please answer the question using ONLY the data in the context above. Follow the 
                 api_key=groq_key,
             )
             response = client.chat.completions.create(
-                model="llama3-8b-8192",
+                model="llama-3.2-3b-preview",
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_message},
