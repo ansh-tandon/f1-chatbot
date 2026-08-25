@@ -30,9 +30,11 @@ def tool_get_race_context() -> dict[str, Any]:
 
 
 def tool_get_driver_laps(driver: str, session_type: str = "Race") -> dict[str, Any]:
-    """Get lap-by-lap data for a driver."""
+    """Get lap pace summary for a driver."""
     pace = calculate_lap_pace(driver, session_type)
-    return pace.model_dump()
+    data = pace.model_dump()
+    data.pop("laps", None)  # Strip huge 78-lap list to save 5,000+ tokens
+    return data
 
 
 def tool_get_driver_stints(driver: str, session_type: str = "Race") -> dict[str, Any]:

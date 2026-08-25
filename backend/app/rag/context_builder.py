@@ -157,4 +157,12 @@ Date: {race.get('date', '2024-05-26')}""")
     # ── Sources used ───────────────────────────────────────────────────────
     parts.append(f"## Data Sources Used\n{', '.join(orch_result.sources_used)}")
 
-    return "\n\n".join(parts)
+    full_context = "\n\n".join(parts)
+
+    # ── Token Guard: Enforce strict safety ceiling (~3,000 tokens / 12,000 chars) ──
+    # Guarantees no query or tool payload will ever exceed LLM rate limits
+    MAX_CHARS = 12000
+    if len(full_context) > MAX_CHARS:
+        full_context = full_context[:MAX_CHARS] + "\n\n[Context truncated for token safety ceiling]"
+
+    return full_context
