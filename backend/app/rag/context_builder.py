@@ -68,7 +68,7 @@ Date: {race.get('date', '2024-05-26')}""")
     race_results = orch_result.analytics.get("race_results", [])
     if race_results:
         lines = ["## Results"]
-        for r in race_results[:10]:
+        for r in race_results[:3]:
             lines.append(f"  P{r.get('position', '?')}: {r.get('driver')} | Status: {r.get('status', '?')} | Points: {r.get('points', '?')}")
         parts.append("\n".join(lines))
 
@@ -151,7 +151,7 @@ Date: {race.get('date', '2024-05-26')}""")
             lines.append(f"\n[Source: {d.get('title','?')} | {d.get('source','?')} | Score: {d.get('score', 0):.3f}]")
             text = d.get("text", "")
             # Limit document text in context to prevent LLM overload
-            lines.append(text[:600] + ("..." if len(text) > 600 else ""))
+            lines.append(text[:350] + ("..." if len(text) > 350 else ""))
         parts.append("\n".join(lines))
 
     # ── Sources used ───────────────────────────────────────────────────────

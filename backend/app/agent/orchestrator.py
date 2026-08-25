@@ -216,7 +216,7 @@ def orchestrate(message: str) -> OrchestratorResult:
         except Exception as e:
             log.warning(f"Weather fetch failed: {e}")
 
-        # Documents always retrieved
+        # Documents always retrieved (top 2 to keep context lightweight)
         try:
             result.documents = tool_search_documents(message, top_k=2)
             result.sources_used.append("Qdrant")
