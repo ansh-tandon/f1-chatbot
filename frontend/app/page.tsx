@@ -89,6 +89,7 @@ function createNewSession(): ChatSession {
 function FormattedAnswer({ text }: { text: string }) {
   const cleaned = text
     .replace(/\*\*(Answer|Evidence|Analysis|Context|Sources):\*\*/gi, "")
+    .replace(/\\?\$?\\rightarrow\\?\$?/gi, "→")
     .trim();
 
   const paragraphs = cleaned.split(/\n\s*\n/);
