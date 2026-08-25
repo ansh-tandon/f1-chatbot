@@ -33,7 +33,29 @@ def ask_llm(question: str, context: str) -> str:
 
 Please answer the question using ONLY the data in the context above. Follow the answer format exactly."""
 
+    groq_key = os.getenv("GROQ_API_KEY")
     gemini_key = settings.gemini_api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
+    if groq_key:
+        try:
+            from openai import OpenAI
+            client = OpenAI(
+                base_url="https://api.groq.com/openai/v1",
+                api_key=groq_key,
+            )
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_message},
+                ],
+                temperature=0.2,
+                max_tokens=1500,
+            )
+            return response.choices[0].message.content or "No response generated."
+        except Exception as e:
+            # Fallback to Gemini if Groq errors out
+            pass
 
     if gemini_key:
         try:
@@ -84,4 +106,4 @@ Please answer the question using ONLY the data in the context above. Follow the 
             return f"OpenAI LLM error: {str(e)}. Please check your OPENAI_API_KEY in .env."
 
     else:
-        return "Error: No API key provided. Please configure GEMINI_API_KEY or OPENAI_API_KEY in backend/.env."
+        return "Error: No API key provided. Please configure GROQ_API_KEY, GEMINI_API_KEY, or OPENAI_API_KEY in backend/.env."
